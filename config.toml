@@ -42,8 +42,8 @@ pygmentscodefencesguesssyntax = true
   url = "/about/"
 
 [params]
-  subTitle = "blog about life & frontend"                                       # site's subTitle              # 网站二级标题
-  footerSlogan = "热爱生活，请勿焦虑"                                   # site's footer slogan         # 网站页脚标语
+  subTitle = "学过建筑，喜欢摄影"                                       # site's subTitle              # 网站二级标题
+  footerSlogan = ""                                   # site's footer slogan         # 网站页脚标语
   keywords = ["Leon", "blog", "frontend", "life"]                                   # site's keywords              # 网站关键字
   description = "blog about life & frontend"                        # site's description           # 网站描述
   enableMathJax = true                                                 # enable mathjax               # 是否使用mathjax（数学公式）
@@ -58,14 +58,13 @@ pygmentscodefencesguesssyntax = true
   appId = "zfq7GkBtKpYLeVhC7CKBB4JG-gzGzoHsz"
   appKey = "eiLbXy1Pu4Wwbq6OUDoQHSDk"
   placeholder = "comment here ^_^"
-  visitor = true
 
 # Your socail's url
 # 社交地址配置
 [social]
-  github = "https://github.com/Leon-zym"
+  github = "https://github.com/Leon-zym/"
   instagram = "https://www.instagram.com/leon.zym/"
-  weibo = "https://weibo.com/u/3594583821"
+  weibo = "https://weibo.com/u/3594583821/"
 
 [markup]
 [markup.goldmark]
