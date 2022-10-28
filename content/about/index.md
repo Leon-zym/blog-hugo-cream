@@ -11,19 +11,17 @@ draft: false
 
 **相关技能：**
 
-- 熟悉 HTML5、CSS3，熟悉常见响应式布局方案，能够编写符合 W3C 标准的静态页面
-- 熟悉 JavaScript 及其 ES6 新特性，了解原型链、作用域链、闭包等知识
-- 熟悉 Vue.js 前端开发框架，熟悉 Vue3 新特性，能够结合生态链工具进行 SPA 项目开发
-- 熟悉 ElementUI、Vant、Bootstrap 等常见 UI 框架，能够快速准确完成页面结构样式的编写
-- 了解 Less 等 CSS 预处理语言
-- 了解 jQuery，能够进行 DOM、BOM 的操作
-- 了解 Webpack 构建工具，能够对项目环境进行简单配置和优化
+- 熟悉 HTML5、CSS3，熟悉常见 PC 端、移动端布局方案，能够根据 UI 设计稿快速准确编写静态页面
+- 熟悉 JavaScript 及其 ES6 新特性，了解原型、作用域链、闭包等知识，能够使用 Promise 及 async / await 进行异步操作
+- 熟悉微信小程序原生开发，能够使用官方组件及 API 快速搭建小程序项目，了解小程序开发上线的流程
+- 熟悉 Vue.js 前端开发框架，了解 Vue2、Vue3 特性，能够结合其生态链工具进行 SPA 项目开发
+- 熟悉 ElementUI、Vant 等常见 UI 组件库，能够快速准确完成页面结构样式的编写
+- 了解 Less 等 CSS 预处理器，了解 jQuery 类库
+- 了解 Webpack 等构建工具，能够对项目进行简单的配置和优化
 - 了解 HTTP 协议、TCP/IP 协议等计算机网络基础知识，了解浏览器的工作流程
-- 了解 Git、npm 等工具，能够进行项目的管理
-- 正在学习微信小程序开发……
+- 熟练使用 Git 命令进行团队协作和代码版本管理
 
 **联系我：**
 
 - Email：[leonzym97@gmail.com](mailto:leonzym97@gmail.com)
-
 - WeChat：leon-zym
