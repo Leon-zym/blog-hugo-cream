@@ -60,22 +60,16 @@ console.log(shallowCopy)
 ES6 的 `...` 拓展运算符。
 
 ```js
-let origin = {
-  name: "Leon",
-  friend: {
-    name: "Jack",
-    age: 18
-  }
-}
-let shallowCopy = {...origin}
+let origin = ['Leon', 'Jack', ['Apple', 'Banana']]
+let shallowCopy = [...origin]
 
-shallowCopy.name = "Mike"
-shallowCpoy.friend.age = 23
+shallowCopy[1] = 'Allen'
+shallowCopy[2][1] = 'Peach'
 
 console.log(origin)
-// { name: "Leon", friend: { name: "Jack", age: 23 } }
+// ['Leon', 'Jack', ['Apple', 'Peach']]
 console.log(shallowCopy)
-// { name: "Mike", friend: { name: "Jack", age: 23 } }
+// ['Leon', 'Allen', ['Apple', 'Peach']]
 ```
 
 ### Array.prototype.slice() 实现
