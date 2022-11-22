@@ -1,5 +1,5 @@
 ---
-title: JS基础拾遗
+title: JS 基础拾遗
 date: 2022-04-22
 tags: [JavaScript]
 slug: ""

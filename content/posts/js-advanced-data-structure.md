@@ -1,5 +1,5 @@
 ---
-title: JS高级-数据类型
+title: JS 高级——数据类型
 date: 2022-04-24
 tags: [JavaScript]
 slug: ""

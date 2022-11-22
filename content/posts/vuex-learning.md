@@ -1,5 +1,5 @@
 ---
-title: Vuex的使用
+title: Vuex 的使用
 date: 2022-05-01
 tags: [Vue2]
 slug: ""

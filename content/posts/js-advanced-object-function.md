@@ -1,5 +1,5 @@
 ---
-title: JS高级-对象和函数基础
+title: JS 高级——对象和函数基础
 date: 2022-04-24
 tags: [JavaScript]
 slug: ""

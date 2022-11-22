@@ -1,5 +1,5 @@
 ---
-title: async/await用法及一点思考
+title: async/await 用法及一点思考
 date: 2022-10-28
 tags: [JavaScript, async/await, 异步, Promise]
 slug: 

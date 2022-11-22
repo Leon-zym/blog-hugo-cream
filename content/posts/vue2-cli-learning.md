@@ -1,5 +1,5 @@
 ---
-title: Vue2-CLI-脚手架的使用
+title: Vue2-CLI 脚手架的使用
 date: 2022-04-29
 tags: [Vue2]
 slug: ""

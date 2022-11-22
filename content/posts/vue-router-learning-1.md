@@ -1,5 +1,5 @@
 ---
-title: Vue Router的使用（一）
+title: Vue Router 的使用（一）
 date: 2022-05-02
 tags: [Vue2]
 slug: ""

@@ -1,5 +1,5 @@
 ---
-title: JavaScript中的异步编程
+title: JavaScript 中的异步编程
 date: 2022-05-07
 tags: [JavaScript, 转载]
 slug: ""

@@ -15,7 +15,7 @@ draft: false
 
 关系型（SQL）数据库的数据组织结构有：数据库 database、数据表 table、数据行 row、字段 field。
 
-SQL 也是一门数据库编程语言。只支持在关系型数据库中使用
+同时，SQL 也是一门数据库编程语言。只支持在关系型数据库中使用。
 
 ## MySQL 的一些基本概念
 
@@ -123,9 +123,13 @@ db.query('SELECT * FROM users_table', (err, res) => {
 
 ## 踩坑记录
 
-执行上面的代码后，出现了报错：`ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client`。
+执行上面的代码后，出现了报错：
 
-看些像是身份认证方面的问题，[去 stackoverflow 上查了一下](https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server)，发现是 MySQL 8.0 后的版本默认使用 `caching_sha2_password` 加密方式，而 npm 上的 `mysql` 包 ~~暂时~~ 一直 没有兼容导致的问题。
+```
+ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+```
+
+看些像是身份认证方面的问题，[去 stackoverflow 上查了一下](https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server)，发现是 MySQL 8.0 后的版本默认使用 `caching_sha2_password` 加密方式，而 npm 上的 `mysql` 包~~暂时~~一直没有兼容导致的问题。
 
 解决：由于是个人练手的本地数据库，所以不太考虑安全性 && keep life simple，重新用老的加密方式修改一遍 MySQL 用户的密码即可。
 

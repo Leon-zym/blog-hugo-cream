@@ -1,5 +1,5 @@
 ---
-title: 关于Vue脚手架项目中的两个id="app"的问题
+title: 关于 Vue 脚手架项目中的两个 id="app" 的问题
 date: 2022-05-15
 tags: [Vue2]
 slug: ""
