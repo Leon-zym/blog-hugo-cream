@@ -10,7 +10,7 @@ draft: false
 
 Object-Oriented 面向对象的语言，其必然有三大特点：封装、继承、多态。而 JavaScript 是 Object-Based 基于对象的语言，并不完全算是面向对象的，特别是 ES6 之前，其缺乏完善的继承和多态特性。
 
-TypeScript 作为标准的面相对象的语言，……
+而 TypeScript 就是标准的面相对象的语言了。
 
 ## class 类
 
