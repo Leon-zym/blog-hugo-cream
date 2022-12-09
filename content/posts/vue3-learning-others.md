@@ -1,5 +1,5 @@
 ---
-title: Vue3 学习——其他 CompositionAPI 与其他改动
+title: Vue3 学习 其他 CompositionAPI 与其他改动
 date: 2022-06-08
 tags: [Vue3]
 slug: ""
@@ -121,12 +121,12 @@ teleport可以将html结构移动到指定位置。位置可以是DOM元素名�
 
 ```html
 <teleport to="移动位置">
-	<div v-if="isShow" class="mask">
-		<div class="dialog">
-			<h3>我是一个弹窗</h3>
-			<button @click="isShow = false">关闭弹窗</button>
-		</div>
-	</div>
+  <div v-if="isShow" class="mask">
+    <div class="dialog">
+      <h3>我是一个弹窗</h3>
+      <button @click="isShow = false">关闭弹窗</button>
+    </div>
+  </div>
 </teleport>
 ```
 
@@ -145,21 +145,21 @@ const Child = defineAsyncComponent(()=>import('./components/Child.vue'))
 
 ```html
 <template>
-	<div class="app">
-		<h3>我是App组件</h3>
+  <div class="app">
+    <h3>我是App组件</h3>
     
-		<Suspense>
+    <Suspense>
       <!-- 默认要被显示的组件结构 -->
-			<template v-slot:default>
-				<Child/>
-			</template>
+      <template v-slot:default>
+        <Child/>
+      </template>
       <!-- 等待时额外渲染出来的结构 -->
-			<template v-slot:fallback>
-				<h3>加载中.....</h3>
-			</template>
-		</Suspense>
+      <template v-slot:fallback>
+        <h3>加载中.....</h3>
+      </template>
+    </Suspense>
     
-	</div>
+  </div>
 </template>
 ```
 

@@ -1,5 +1,5 @@
 ---
-title: Vue2 后台管理项目总结(一)
+title: Vue2 后台管理项目总结 (一)
 date: 2022-05-24
 tags: [Vue2, 项目记录]
 slug: ""

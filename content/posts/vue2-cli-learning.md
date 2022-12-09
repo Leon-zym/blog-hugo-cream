@@ -100,11 +100,11 @@ new Vue({
 
 ```js
 methods() {
-	test(data) {......}  // data为要接受的数据
+  test(data) {......}  // data为要接受的数据
 }
 ......
 mounted() {
-	this.$bus.$on('event',this.test)
+  this.$bus.$on('event',this.test)
 }
 beforeDestroy() {
   this.$bus.$off('event')
@@ -152,7 +152,7 @@ v-leave-active {
 
 ```vue
 <transition>
-	<!-- 需要过渡效果的元素 -->
+  <!-- 需要过渡效果的元素 -->
 </transition>
 ```
 
@@ -182,17 +182,17 @@ Tips：
 
 ```js
 devServer: {
-	proxy: {
-		'/api1': {  //匹配所有以/api1开头的请求路径
-			target: 'http://localhost:5000',  //代理目标的基础路径
-			changeOrigin: true,  //改变请求头的host地址为目标服务器的地址
-			pathRewrite: {'^/api1': ''}  //去掉匹配路径前缀
-		},
-		'/api2': {  //匹配所有以/api2开头的请求路径
-			target: 'http://localhost:5001',  //代理目标的基础路径
-			changeOrigin: true,
-			pathRewrite: {'^/api2': ''}
-		}
+  proxy: {
+    '/api1': {  //匹配所有以/api1开头的请求路径
+      target: 'http://localhost:5000',  //代理目标的基础路径
+      changeOrigin: true,  //改变请求头的host地址为目标服务器的地址
+      pathRewrite: {'^/api1': ''}  //去掉匹配路径前缀
+    },
+    '/api2': {  //匹配所有以/api2开头的请求路径
+      target: 'http://localhost:5001',  //代理目标的基础路径
+      changeOrigin: true,
+      pathRewrite: {'^/api2': ''}
+    }
   }
 }
 ```
@@ -235,22 +235,22 @@ slot插槽分为：默认插槽，具名插槽，作用域插槽。
 ```vue
 <!-- 父组件中 -->
 <Category>
-	<template slot="center">	<!-- 老式写法 -->
-		<div>html结构1</div>
-	</template>
+  <template slot="center">  <!-- 老式写法 -->
+    <div>html结构1</div>
+  </template>
 
-	<template v-slot:footer> 	<!-- 新式写法 -->
-		<div>html结构2</div>
-	</template>
+  <template v-slot:footer>   <!-- 新式写法 -->
+    <div>html结构2</div>
+  </template>
 </Category>
 
 
 <!-- 子组件中 -->
 <template>
-	<div>
-		<slot name="center">插槽默认内容...</slot>
-		<slot name="footer">插槽默认内容...</slot>
-	</div>
+  <div>
+    <slot name="center">插槽默认内容...</slot>
+    <slot name="footer">插槽默认内容...</slot>
+  </div>
 </template>
 ```
 

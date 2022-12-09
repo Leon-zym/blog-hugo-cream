@@ -1,5 +1,5 @@
 ---
-title: 微信小程序开发学习(一)
+title: 微信小程序开发学习 (一)
 date: 2022-06-30
 tags: [小程序]
 slug: ""
@@ -173,7 +173,7 @@ inputHandler(e) {
 
 ```html
 <view wx:for="{{array}}">
-	当前索引为{{index}}，当前项为{{item}}
+  当前索引为{{index}}，当前项为{{item}}
 </view>
 ```
 
@@ -181,7 +181,7 @@ inputHandler(e) {
 
 ```html
 <view wx:for="{{array}}" wx:for-index="indexName" wx:for-item="itemName">
-	当前索引为{{indexName}}，当前项为{{itemName}}
+  当前索引为{{indexName}}，当前项为{{itemName}}
 </view>
 ```
 
@@ -229,7 +229,7 @@ key值不需要使用双大括号包裹。
 @import "common/common.wxss";
 
 .middle-p {
-	padding: 30rpx;
+  padding: 30rpx;
 }
 ```
 

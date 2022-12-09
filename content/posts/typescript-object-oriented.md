@@ -1,5 +1,5 @@
 ---
-title: TypeScript 学习——面相对象的相关特性
+title: TypeScript 学习 面相对象的相关特性
 date: 2022-12-07
 tags: [TypeScript, 面向对象]
 slug: 

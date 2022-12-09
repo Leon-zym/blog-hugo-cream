@@ -1,5 +1,5 @@
 ---
-title: Webpack 学习——环境配置
+title: Webpack 学习 环境配置
 date: 2022-05-05
 tags: [Webpack, 前端工程化]
 slug: ""
@@ -33,7 +33,7 @@ module.exports = {
   
   // loader的配置
   module: {
-		// 详细loader配置
+    // 详细loader配置
   },
   
   // plugins的配置
@@ -176,7 +176,7 @@ module.exports = {
         use: [...commonCssLoader, 'less-loader']
       },
       
-      // 正常来讲，一个文件只能被一个loader处理。当一个文件要被多个loader处理时，则一定要指定loader执行的先后顺序：先执行eslint，再执行babel
+      // 正常来讲，一个文件只能被一个loader处理。当一个文件要被多个loader处理时，则一定要指定loader执行的先后顺序(从右到左，从下到上依次执行)。这里为先执行eslint，再执行babel
       {
         // js语法检查，还需在package.json中配置eslintConfig
         test: /\.js$/,

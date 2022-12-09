@@ -1,5 +1,5 @@
 ---
-title: Vue3 学习——常用 CompositionAPI
+title: Vue3 学习 常用 CompositionAPI
 date: 2022-06-07
 tags: [Vue3]
 slug: ""
@@ -33,8 +33,8 @@ Vue3的template模板可以没有根标签包裹了。实质上Vue3是自动使�
 
 ```html
 <template>
-	<img alt="Vue logo" src="./assets/logo.png">
-	<HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 ```
 
@@ -105,17 +105,17 @@ reactive定义的响应式数据是深层次的，即对象内部的所有层次
 
 ```js
 new Proxy(data, {
-	// 拦截读取属性值
+  // 拦截读取属性值
   get (target, prop) {
-  	return Reflect.get(target, prop)
+    return Reflect.get(target, prop)
   },
   // 拦截设置属性值或添加新属性
   set (target, prop, value) {
-  	return Reflect.set(target, prop, value)
+    return Reflect.set(target, prop, value)
   },
   // 拦截删除属性
   deleteProperty (target, prop) {
-  	return Reflect.deleteProperty(target, prop)
+    return Reflect.deleteProperty(target, prop)
   }
 })
 ```
@@ -158,7 +158,7 @@ import {computed} from 'vue'
 setup(){
   ...
   
-	//计算属性——简写
+  //计算属性——简写
   let fullName = computed(()=>{
       return person.firstName + '-' + person.lastName
   })
@@ -184,30 +184,30 @@ setup(){
 ```js
 //情况一：监视ref定义的响应式数据
 watch(sum,(newValue,oldValue)=>{
-	console.log('sum变化了',newValue,oldValue)
+  console.log('sum变化了',newValue,oldValue)
 },{immediate:true})
 
 //情况二：监视多个ref定义的响应式数据
 watch([sum,msg],(newValue,oldValue)=>{
-	console.log('sum或msg变化了',newValue,oldValue)
+  console.log('sum或msg变化了',newValue,oldValue)
 }) 
 
 /* 情况三：监视reactive定义的响应式数据
-			若watch监视的是reactive定义的响应式数据，则无法正确获得oldValue！！
-			若watch监视的是reactive定义的响应式数据，则强制开启了深度监视 
+      若watch监视的是reactive定义的响应式数据，则无法正确获得oldValue！！
+      若watch监视的是reactive定义的响应式数据，则强制开启了深度监视 
 */
 watch(person,(newValue,oldValue)=>{
-	console.log('person变化了',newValue,oldValue)
+  console.log('person变化了',newValue,oldValue)
 },{immediate:true,deep:false}) //此处的deep配置不再奏效
 
 //情况四：监视reactive定义的响应式数据中的某个属性
 watch(()=>person.job,(newValue,oldValue)=>{
-	console.log('person的job变化了',newValue,oldValue)
+  console.log('person的job变化了',newValue,oldValue)
 },{immediate:true,deep:true}) 
 
 //情况五：监视reactive定义的响应式数据中的某些属性
 watch([()=>person.job,()=>person.name],(newValue,oldValue)=>{
-	console.log('person的job变化了',newValue,oldValue)
+  console.log('person的job变化了',newValue,oldValue)
 },{immediate:true,deep:true})
 
 //特殊情况

@@ -1,5 +1,5 @@
 ---
-title: TypeScript 学习——编译选项
+title: TypeScript 学习 编译选项
 date:  2022-11-30
 tags: [TypeScript]
 slug: 

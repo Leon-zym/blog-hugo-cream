@@ -1,5 +1,5 @@
 ---
-title: 解决黑苹果 macOS12 Monterey 睡眠唤醒后蓝牙失效问题
+title: 解决黑苹果 macOS12 睡眠唤醒后蓝牙失效问题
 date: 2022-05-02
 tags: [macOS]
 slug: ""

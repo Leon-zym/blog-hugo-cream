@@ -1,5 +1,5 @@
 ---
-title: 微信小程序开发学习(三)
+title: 微信小程序开发学习 (三)
 date: 2022-09-15
 tags: [小程序]
 slug: ""
@@ -183,7 +183,7 @@ options: {
 
 ```html
 <view>
-	<slot name="top-slot"></slot>
+  <slot name="top-slot"></slot>
   <view>I'm middle</view>
   <slot name="bottom-slot"></slot>
 </view>
@@ -191,7 +191,7 @@ options: {
 
 ```html
 <my-component>
-	<view slot="top-slot">content in top slot</view>
+  <view slot="top-slot">content in top slot</view>
   <view slot="bottom-slot">content in bottom slot</view>
 </my-component>
 ```

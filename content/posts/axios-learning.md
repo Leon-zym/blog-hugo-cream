@@ -1,5 +1,5 @@
 ---
-title: axios 学习
+title: Axios 学习
 date: 2022-05-18
 tags: [JavaScript, axios]
 slug: ""

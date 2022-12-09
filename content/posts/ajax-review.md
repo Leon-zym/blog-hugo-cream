@@ -1,5 +1,5 @@
 ---
-title: 手写一个 AJAX
+title: 回顾 手写一个 AJAX
 date: 2022-12-07
 tags: [AJAX]
 slug: 

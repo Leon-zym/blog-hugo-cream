@@ -1,5 +1,5 @@
 ---
-title: Vue Router 的使用（二）
+title: Vue Router 的使用 (二)
 date: 2022-05-02
 tags: [Vue2]
 slug: ""
@@ -14,23 +14,23 @@ draft: false
 
 ```js
 {
-	name: 'detail',
-	path: 'detail',
-	component: Detail,
+  name: 'detail',
+  path: 'detail',
+  component: Detail,
 
-	//第一种写法：props值为对象，该对象中所有的key-value组合最终都会通过props传给Detail组件
-	props: {a:900},
+  //第一种写法：props值为对象，该对象中所有的key-value组合最终都会通过props传给Detail组件
+  props: {a:900},
 
-	//第二种写法：props值为布尔值，布尔值为true，则把路由收到的所有params参数通过props传给Detail组件
-	props:true,
+  //第二种写法：props值为布尔值，布尔值为true，则把路由收到的所有params参数通过props传给Detail组件
+  props:true,
 
-	//第三种写法：props值为函数，该函数返回的对象中每一组key-value都会通过props传给Detail组件
-	props($route) {
-		return {
-			id: $route.query.id,
-			title: $route.query.title
-		}
-	}
+  //第三种写法：props值为函数，该函数返回的对象中每一组key-value都会通过props传给Detail组件
+  props($route) {
+    return {
+      id: $route.query.id,
+      title: $route.query.title
+    }
+  }
 }
 ```
 

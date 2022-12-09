@@ -1,5 +1,5 @@
 ---
-title: TypeScript 学习——类型声明
+title: TypeScript 学习 类型声明
 date: 2022-11-25
 tags: [TypeScript]
 slug: 

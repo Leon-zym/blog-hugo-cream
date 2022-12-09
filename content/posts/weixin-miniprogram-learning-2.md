@@ -1,5 +1,5 @@
 ---
-title: 微信小程序开发学习(二)
+title: 微信小程序开发学习 (二)
 date: 2022-07-04
 tags: [小程序]
 slug: ""
@@ -163,9 +163,9 @@ wxs与JavaScript的关系：
 <view>{{m1.toUpper(username)}}</view>
 
 <wxs module="m1">
-	// 将文本转换为大写形式
+  // 将文本转换为大写形式
   module.exports.toUpper = function(str) {
-  	return str.toUpperCase()
+    return str.toUpperCase()
   }
 </wxs>
 ```

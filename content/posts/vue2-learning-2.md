@@ -1,5 +1,5 @@
 ---
-title: Vue2 基础拾遗
+title: Vue2 学习 (二)
 date: 2022-04-27
 tags: [Vue2]
 slug: ""

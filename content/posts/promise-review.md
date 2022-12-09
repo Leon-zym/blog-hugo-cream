@@ -1,5 +1,5 @@
 ---
-title: Promise 学习
+title: Promise 回顾
 date: 2022-05-09
 tags: [JavaScript]
 slug: ""
