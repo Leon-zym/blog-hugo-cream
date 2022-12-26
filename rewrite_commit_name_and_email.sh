@@ -4,7 +4,7 @@ git filter-branch -f --env-filter '
 
 OLD_EMAIL="leonzym97@gmail.com"
 # OLD_EMAIL="leon.zym@qq.com"
-OLD_EMAIL="leon@Leon-laptop.local"
+# OLD_EMAIL="leon@Leon-laptop.local"
 NEW_NAME="Leon Zhang"
 NEW_EMAIL="leon.zym@qq.com"
 
