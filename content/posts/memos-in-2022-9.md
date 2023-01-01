@@ -1,5 +1,5 @@
 ---
-title: 九月份依旧是内心活动频繁发生的一些 memo
+title: 依旧是内心活动频繁发生的九月份的一些 memo
 date: 2022-12-31
 tags: [memo]
 slug: 
