@@ -1,0 +1,3 @@
+[submodule "themes/cream"]
+	path = themes/cream
+	url = git@github.com:Leon-zym/hugo-theme-cream.git
