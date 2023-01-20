@@ -4,8 +4,9 @@ defaultContentLanguage = "en"
 title = "LEON"                        # site title                     # 网站标题
 theme = "cream"
 hasCJKLanguage = true                  # has chinese/japanese/korean ?  # 自动检测是否包含 中文\日文\韩文
-summaryLength = 120
+summaryLength = 100
 paginate = 10                           # shows the number of articles   # 首页显示文章数量
+rssLimit = 10                           # limit the number of posts in rss output
 enableEmoji = true
 googleAnalytics = ""                   # your google analytics id       # Google统计代码
 disqusShortname = ""                   # your discuss shortname         # Disqus评论系统代码
@@ -15,7 +16,7 @@ pygmentCodeFences = true
 pygmentscodefencesguesssyntax = true
 
 [author]                               # essential                      # 必需
-  name = "Leon"
+  name = "Leon Zhang"
 
 [blackfriday]
   smartypants = false
@@ -42,10 +43,10 @@ pygmentscodefencesguesssyntax = true
   url = "/about/"
 
 [params]
-  subTitle = "学过建筑，喜欢摄影，在写代码"                                       # site's subTitle              # 网站二级标题
-  footerSlogan = ""                                   # site's footer slogan         # 网站页脚标语
-  keywords = ["Leon", "blog", "frontend", "life"]                                   # site's keywords              # 网站关键字
-  description = "Personal blog about life & frontend"                        # site's description           # 网站描述
+  subTitle = ""                                       # site's subTitle              # 网站二级标题
+  footerSlogan = "学过建筑 | 在写代码 | 喜欢拍照"                                   # site's footer slogan         # 网站页脚标语
+  keywords = ["Leon", "Blog", "Post", "Frontend", "Life"]                                   # site's keywords              # 网站关键字
+  description = "Leon's personal blog about life & frontend"                        # site's description           # 网站描述
   enableMathJax = false                                                 # enable mathjax               # 是否使用mathjax（数学公式）
   enableSummary = true                                                 # display the article summary  # 是否显示文章摘要
   mainSections = ["posts","post"]
@@ -58,6 +59,8 @@ pygmentscodefencesguesssyntax = true
   appId = "zfq7GkBtKpYLeVhC7CKBB4JG-gzGzoHsz"
   appKey = "eiLbXy1Pu4Wwbq6OUDoQHSDk"
   placeholder = ""
+  avatar = "retro"       # see optional value in https://valine.js.org/avatar.html
+  meta = ["nick"]        # commenter's info, ['nick','mail','link']
 
 # Your socail's url
 # 社交地址配置
