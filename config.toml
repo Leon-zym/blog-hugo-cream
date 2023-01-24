@@ -16,7 +16,7 @@ pygmentCodeFences = true
 pygmentscodefencesguesssyntax = true
 
 [author]                               # essential                      # 必需
-  name = "Leon Zhang"
+  name = "Leon"
 
 [blackfriday]
   smartypants = false
@@ -32,13 +32,18 @@ pygmentscodefencesguesssyntax = true
   identifier = "posts"
   url = "/posts/"
 [[menu.main]]
-  name = "Tags"
+  name = "Categories"
   weight = 30
+  identifier = "categories"
+  url = "/categories/"
+[[menu.main]]
+  name = "Tags"
+  weight = 40
   identifier = "tags"
   url = "/tags/"
 [[menu.main]]
   name = "About"
-  weight = 40
+  weight = 50
   identifier = "about"
   url = "/about/"
 
