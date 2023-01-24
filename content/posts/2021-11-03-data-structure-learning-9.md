@@ -1,9 +1,8 @@
 ---
 title: 《浙大 数据结构》二叉搜索树
-date: 2021-11-03
+date: 2021-11-03T11:00:00
 categories: Programming
 tags: [CS]
-weight: 3
 ---
 
 # 什么是二叉搜索树

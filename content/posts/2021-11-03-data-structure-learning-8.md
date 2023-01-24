@@ -1,9 +1,8 @@
 ---
 title: 《浙大 数据结构》二叉树的遍历
-date: 2021-11-03
+date: 2021-11-03T10:00:00
 categories: Programming
 tags: [CS]
-weight: 2
 ---
 
 # 三种常用遍历

@@ -1,9 +1,8 @@
 ---
 title: 《浙大 数据结构》堆栈
-date: 2021-08-05
+date: 2021-08-05T11:00:00
 categories: Programming
 tags: [CS]
-weight: 3
 ---
 
 # 什么是堆栈

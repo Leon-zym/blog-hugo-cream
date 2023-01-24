@@ -1,9 +1,8 @@
 ---
 title: 《浙大 数据结构》二叉树
-date: 2021-11-03
+date: 2021-11-03T09:00:00
 categories: Programming
 tags: [CS]
-weight: 1
 ---
 
 # 二叉树的定义

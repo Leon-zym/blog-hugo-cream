@@ -1,9 +1,8 @@
 ---
 title: jQuery 学习 (一)
-date: 2022-03-26
+date: 2022-03-26T09:00:00
 categories: Programming
 tags: [jQuery]
-weight: 1
 ---
 
 # jQuery简介

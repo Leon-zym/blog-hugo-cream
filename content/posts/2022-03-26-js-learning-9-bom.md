@@ -1,9 +1,8 @@
 ---
 title: JavaScript  BOM (三)
-date: 2022-03-26
+date: 2022-03-26T10:00:00
 categories: Programming
 tags: [JavaScript]
-weight: 2
 ---
 
 # JavaScriptBOM（三）

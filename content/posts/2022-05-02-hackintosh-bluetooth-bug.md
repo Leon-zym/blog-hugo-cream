@@ -1,9 +1,8 @@
 ---
 title: 解决黑苹果 macOS12 睡眠唤醒后蓝牙失效问题
-date: 2022-05-02
+date: 2022-05-02T09:00:00
 categories: Hacker
 tags: [macOS]
-weight: 1
 ---
 
 # 前言

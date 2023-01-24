@@ -1,9 +1,8 @@
 ---
 title: 《浙大 数据结构》线性结构
-date: 2021-08-05
+date: 2021-08-05T10:00:00
 categories: Programming
 tags: [CS]
-weight: 2
 ---
 
 # 线性表及其实现

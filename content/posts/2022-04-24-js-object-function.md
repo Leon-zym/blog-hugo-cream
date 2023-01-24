@@ -1,9 +1,8 @@
 ---
 title: JavaScript 对象和函数基础
-date: 2022-04-24
+date: 2022-04-24T11:00:00
 categories: Programming
 tags: [JavaScript]
-weight: 3
 ---
 
 # 对象的属性名

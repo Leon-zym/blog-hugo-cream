@@ -1,9 +1,8 @@
 ---
 title: TypeScript 学习 面相对象的相关特性
-date: 2022-12-07
+date: 2022-12-07T10:00:00
 categories: Programming
 tags: [TypeScript]
-weight: 2
 ---
 
 ## TypeScript 中的面相对象

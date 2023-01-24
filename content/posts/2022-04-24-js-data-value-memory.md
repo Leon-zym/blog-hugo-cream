@@ -1,9 +1,8 @@
 ---
 title: JavaScript 数据 变量 内存
-date: 2022-04-24
+date: 2022-04-24T10:00:00
 categories: Programming
 tags: [JavaScript]
-weight: 2
 ---
 
 # 数据-变量-内存的联系

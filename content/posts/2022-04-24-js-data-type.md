@@ -1,9 +1,8 @@
 ---
 title: JavaScript 数据类型
-date: 2022-04-24
+date: 2022-04-24T09:00:00
 categories: Programming
 tags: [JavaScript]
-weight: 1
 ---
 
 # 数据类型分类

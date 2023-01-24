@@ -1,9 +1,8 @@
 ---
 title: 《浙大 数据结构》树
-date: 2021-10-09
+date: 2021-10-09T10:00:00
 categories: Programming
 tags: [CS]
-weight: 2
 ---
 
 # 引子

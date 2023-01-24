@@ -1,9 +1,8 @@
 ---
 title: 《浙大 数据结构》绪论
-date: 2021-08-05
+date: 2021-08-05T09:00:00
 categories: Programming
 tags: [CS]
-weight: 1
 ---
 
 # 1.1 什么是数据结构

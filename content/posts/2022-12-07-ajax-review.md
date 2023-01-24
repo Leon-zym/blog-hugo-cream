@@ -1,9 +1,8 @@
 ---
 title: 回顾 手写一个 AJAX
-date: 2022-12-07
+date: 2022-12-07T09:00:00
 categories: Programming
 tags: [JavaScript]
-weight: 1
 ---
 
 ## 乌龙
