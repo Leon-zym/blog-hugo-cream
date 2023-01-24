@@ -1,8 +1,6 @@
 ---
 title: "关于我"
 date: 2022-09-25
-hidden: true
-draft: false
 ---
 
 > Hello 陌生人，欢迎访问 Leon 的 Blog
