@@ -44,7 +44,7 @@ DOM事件流分为三个阶段：
 2. 当前目标阶段
 3. 冒泡阶段
 
-![Untitled](/images/js-dom-3.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/js-dom-3.png)
 
 - js代码中只能执行捕获或冒泡中的一个阶段
 - `onclick`和`attachEvent` 只能得到冒泡阶段

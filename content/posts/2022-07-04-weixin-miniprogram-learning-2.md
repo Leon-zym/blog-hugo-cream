@@ -31,7 +31,7 @@ tags: [miniprogram]
 
 跳转到tabBar页面也可以使用`wx.switchTab(Object)`方法进行编程式导航。其中参数Object对象的属性有：
 
-![image-20220704172044745](/images/image-20220704172044745.png)
+![image-20220704172044745](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-20220704172044745.png)
 
 ```html
 <!-- wxml中 -->
@@ -154,7 +154,7 @@ Page({
 
 wxs与JavaScript的关系：
 
-![image-20220705103631260](/images/image-20220705103631260.png)
+![image-20220705103631260](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-20220705103631260.png)
 
 内联的wxs代码写在wxml的`<wxs>`标签内，标签必须提供一个`module`属性作为模块的名称，以方便在wxml中访问模块中的成员。
 

@@ -83,7 +83,7 @@ int BinarySearch(List Tbl, ElementType K)
 
 11个元素的二分查找判定树：
 
-![Untitled](/images/cs-data-structure-4.jpg)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/cs-data-structure-4.jpg)
 
 - 判定树上每个结点需要的查找次数刚好为该结点所在的层数
 - 查找成功时的查找次数不会超过判定树的深度

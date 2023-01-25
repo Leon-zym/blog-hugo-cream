@@ -73,7 +73,7 @@ tags: [JavaScript]
     - 构造函数不需要return就可以返回结果
     - `new`在执行时会做的4件事情：
       
-        ![Untitled](/images/js-learning-4.png)
+        ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/js-learning-4.png)
         
 
 ### 使用对象

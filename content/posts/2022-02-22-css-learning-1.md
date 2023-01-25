@@ -148,7 +148,7 @@ tags: [CSS]
     - 行高的继承性：行高数值后可以不跟单位，表示倍数，则后面继承这一属性的文字，行高均为其本身字体大小的相应倍数
 - 优先级：当选择器不同，属性相同时，根据选择器的权重先后执行
   
-    ![Untitled](/images/css-grammer-1.png)
+    ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/css-grammer-1.png)
     
     - 等级从左到右依次判断
     - 即使父级元素的权重很高，但子元素继承过来后权重仍然为0,0,0,0

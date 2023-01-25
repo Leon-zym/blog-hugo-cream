@@ -36,20 +36,20 @@ tags: [CS]
 - 指令和数据以同等地位存储在存储器中，均用二进制代码表示
 - **以运算器为中心**
 
-![Untitled](/images/cs-architecture-1.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/cs-architecture-1.png)
 
 ### 现代计算机
 
 - **以存储器为中心**
 - CPU = 运算器 + 控制器
 
-![Untitled](/images/cs-architecture-2.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/cs-architecture-2.png)
 
 存储器分为主存储器（又称内存储器）和辅助存储器（又称外存储器）。CPU能直接访问的是主存储器，辅助存储器的信息必须先调入主存后才能被CPU访问。
 
 主存储器的基本组成：
 
-![Untitled](/images/cs-architecture-3.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/cs-architecture-3.png)
 
 - 存储体由许多存储单元组成，每个存储单元包含若干存储元件
 - 每个存储元件存储一位二进制代码

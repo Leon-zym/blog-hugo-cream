@@ -56,7 +56,7 @@ options: {
 
 styleIsolation的可选值：
 
-![image-20220912135037550](/images/image-20220912135037550.png)
+![image-20220912135037550](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-20220912135037550.png)
 
 ## properties
 
@@ -131,7 +131,7 @@ data: {
 
 ## 组件的生命周期
 
-![image-20220913223320584](/images/image-20220913223320584.png)
+![image-20220913223320584](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-20220913223320584.png)
 
 注意：组件的生命周期函数不建议直接写在Component构造器中（旧），更推荐写在`lifetimes`配置项中（新）。
 
@@ -151,7 +151,7 @@ lifetimes: {
 
 ## 组件所在页面的生命周期
 
-![image-20220913224736755](/images/image-20220913224736755.png)
+![image-20220913224736755](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-20220913224736755.png)
 
 组件所在页面的状态发生变化时被调用，其需要定义在`pageLifetimes`配置项中。
 
@@ -217,7 +217,7 @@ properties: {
 
 用于子组件给父组件传值，可以传递任何类型的数据，包括方法：
 
-![image-20220914223811834](/images/image-20220914223811834.png)
+![image-20220914223811834](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-20220914223811834.png)
 
 ### 获取组件实例
 
@@ -255,13 +255,13 @@ Component({
 })
 ```
 
-![image-20220915205036103](/images/image-20220915205036103.png)
+![image-20220915205036103](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-20220915205036103.png)
 
 
 
 组件内的字段和behavior内的可以同名，同名冲突后参照 [同名字段的覆盖和组合规则](https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/behaviors.html)
 
-![image-20220915205405170](/images/image-20220915205405170.png)
+![image-20220915205405170](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-20220915205405170.png)
 
 # 分包
 

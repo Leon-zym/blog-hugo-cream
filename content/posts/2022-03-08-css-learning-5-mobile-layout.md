@@ -317,7 +317,7 @@ Less在CSS的基础上，加入了程序式语言的特性。引入了变量、M
 
 - HTML中font-size大小
   
-    ![Untitled](/images/css-layout-mobile-1.png)
+    ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/css-layout-mobile-1.png)
     
 - 元素大小取值方法：
     - 公式：页面元素的rem值 = 元素像素值px / (屏幕宽度px / 划分的份数)

@@ -11,9 +11,9 @@ tags: [Vue2, Project]
 
 以目前的能力和精力，开发出首页看板、用户管理等页面，拥有管理员登入登出、数据可视化展示、用户信息增删改查等功能。同时将许多通用的功能模块封装成组件，对外暴露接口，为通用后台管理系统的后续开发提供了丰富的可扩展性、可维护性。
 
-![Xnip2022-05-28_23-03-15](/images/Xnip2022-05-28_23-03-15.png)
+![Xnip2022-05-28_23-03-15](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/Xnip2022-05-28_23-03-15.png)
 
-![Xnip2022-05-28_23-03-54](/images/Xnip2022-05-28_23-03-54.png)
+![Xnip2022-05-28_23-03-54](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/Xnip2022-05-28_23-03-54.png)
 
 下面内容是在项目基本完成后，对开发过程中遇到的重难点、对Bug的解决处理方式的零散记录总结。
 
@@ -41,7 +41,7 @@ tags: [Vue2, Project]
 
 在侧边栏导航进行路由跳转。当我们重复点击导航的时候，会在浏览器控制台报错。这个报错是因为路由跳转的回调返回的是一个promise对象，如果没有对其设置异常捕获，则会出现报错。
 
-![image-2022052844118900 PM](/images/image-2022052844118900%20PM.png)
+![image-2022052844118900 PM](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-2022052844118900%20PM.png)
 
 可以在每次写路由跳转的时候补上catch来捕获异常，也可以一劳永逸，直接封装修改VueRouter原型身上的push方法：
 
@@ -116,7 +116,7 @@ hr {
 
 在使用axios发送请求时，对返回的结果进行then处理，可当时却一直拿不到Mock返回的data数据。经过测试发现，返回的数据并不直接在response对象中，而是包含在其内部的data中：
 
-![image-2022052851312675 PM](/images/image-2022052851312675%20PM.png)
+![image-2022052851312675 PM](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-2022052851312675%20PM.png)
 
 为了简便使用，我们可以先对其解构赋值，提取出data中的数据：
 

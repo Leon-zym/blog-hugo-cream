@@ -119,7 +119,7 @@ double f2(int n, double a[], double x)      //秦九韶算法
 
 代码运行结果：
 
-![Untitled](/images/cs-data-structure-1.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/cs-data-structure-1.png)
 
 两种算法的耗时大约是一个数量级的差距
 
@@ -190,11 +190,11 @@ void SelectionSort (int List[], int N)
 
 ### 复杂度的渐进表示法
 
-![Untitled](/images/cs-data-structure-2.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/cs-data-structure-2.png)
 
 ### 复杂度分析的窍门
 
-![Untitled](/images/cs-data-structure-3.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/cs-data-structure-3.png)
 
 # 1.3 应用实例：最大子列和问题
 

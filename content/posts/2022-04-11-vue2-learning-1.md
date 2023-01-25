@@ -79,7 +79,7 @@ Vue：一套用于构建用户界面的渐进式JavaScript框架
 
 # MVVM模型
 
-![Untitled](/images/vue-learning-1.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/vue-learning-1.png)
 
 Vue实例赋值给的变量一般名称为vm。而data中的所有属性，最后都出现在了vm身上（数据代理）。vm身上所有的属性，以及Vue原型上的所有属性，在Vue模板中都可以直接使用。
 
@@ -108,7 +108,7 @@ ES6语法，用于追加定义对象的属性。
 2. 为每一个添加到vm上的属性，都指定一个getter和setter
 3. 在getter和setter内部去操作（读/写）data中对应的属性
 
-![Untitled](/images/vue-learning-2.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/vue-learning-2.png)
 
 # 事件处理
 

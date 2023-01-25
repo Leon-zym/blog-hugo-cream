@@ -48,4 +48,4 @@ ECharts是一个开源的js库。
 
 ### 总结
 
-![Untitled](/images/echarts-1.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/echarts-1.png)

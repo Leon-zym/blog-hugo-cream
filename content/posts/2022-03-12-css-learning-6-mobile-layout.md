@@ -33,7 +33,7 @@ tags: [CSS]
 - 原理：使用媒体查询，针对不同宽度的设备进行布局和样式设置，从而适配不同的设备
 - 设备尺寸划分：
   
-    ![Untitled](/images/css-layout-mobile-2.png)
+    ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/css-layout-mobile-2.png)
     
 
 ### 响应式布局容器
@@ -44,7 +44,7 @@ tags: [CSS]
 
 - 响应式尺寸划分（常用）
   
-    ![Untitled](/images/css-layout-mobile-3.png)
+    ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/css-layout-mobile-3.png)
     
 
 # Bootstrap开发框架
@@ -62,11 +62,11 @@ tags: [CSS]
 - **布局容器：**Bootstrap需要为页面内容和栅格系统包裹一个.container容器。Bootstrap预先定义好了这个类，叫`.container`。它提供了两个这种类：
     - container类
       
-        ![Untitled](/images/css-layout-mobile-4.png)
+        ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/css-layout-mobile-4.png)
         
     - container-fluid类
       
-        ![Untitled](/images/css-layout-mobile-5.png)
+        ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/css-layout-mobile-5.png)
         
 
 ### Bootstrap栅格系统（grid system）
@@ -79,7 +79,7 @@ tags: [CSS]
 
 - 栅格选项参数：栅格系统通过一系列的行（row）和列（column）的组合来创建页面布局。
   
-    ![Untitled](/images/css-layout-mobile-6.png)
+    ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/css-layout-mobile-6.png)
     
     - 行（row）必须放在container布局容器里面
     - 要实现列的平均划分，需要给列（column）添加**类前缀**
@@ -102,11 +102,11 @@ tags: [CSS]
 - 响应式工具：利用媒体查询功能，针对不同的设备展示或隐藏页面内容
     - 隐藏：
       
-        ![Untitled](/images/css-layout-mobile-7.png)
+        ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/css-layout-mobile-7.png)
         
     - 显示：
       
-        ![Untitled](/images/css-layout-mobile-8.png)
+        ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/css-layout-mobile-8.png)
         
 
 # ETC

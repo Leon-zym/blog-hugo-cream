@@ -15,7 +15,7 @@ DOM（Document Object Model 文档对象模型）：是处理可扩展标记语�
 
 ### DOM树
 
-![Untitled](/images/js-dom-1.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/js-dom-1.png)
 
 DOM把以上内容都可看做是一个对象
 
@@ -235,7 +235,7 @@ btn.onclick = function() {};
     - 创建多个元素的效率更高, 但不要拼接字符串, 应采用数组形式拼接 (先把子节点循环push到数组中, 然后用join将数组转化为字符串给element.innerHTML)
 - 三者区别
   
-    ![Untitled](/images/js-dom-2.png)
+    ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/js-dom-2.png)
     
 
 ## 添加节点

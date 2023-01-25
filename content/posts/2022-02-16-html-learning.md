@@ -50,7 +50,7 @@ tags: [HTML]
 - <!- - 注释标签 - ->
 - 特殊字符
   
-    ![Untitled](/images/html-learning-1.png)
+    ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/html-learning-1.png)
     
 - &nbsp; 空格
 - &lt; 小于号<

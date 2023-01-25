@@ -7,7 +7,7 @@ tags: [Vue2]
 
 # 数据代理
 
-Vue 首先将data中的数据存储在实例对象vm的 _data 中，然后利用`Object.defineProperty()`把 _data 中的所有属性添加到vm身上，并为每个属性分别创建getter和setter，在getter和setter内部代理操作 _data 中对应的属性，实现数据代理。![01](/images/data-proxy.png)
+Vue 首先将data中的数据存储在实例对象vm的 _data 中，然后利用`Object.defineProperty()`把 _data 中的所有属性添加到vm身上，并为每个属性分别创建getter和setter，在getter和setter内部代理操作 _data 中对应的属性，实现数据代理。![01](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/data-proxy.png)
 
 # 列表渲染
 

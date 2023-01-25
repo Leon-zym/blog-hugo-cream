@@ -342,7 +342,7 @@ filter属性的值为一个函数()
     - 花费时间：过渡过程需要花费的时间，单位为s秒（必要）
     - 运动曲线：四种模式，默认为ease（可省略）
       
-        ![Untitled](/images/css-grammer-3.png)
+        ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/css-grammer-3.png)
         
     - 何时开始：设置延迟触发过渡效果的时间，单位为s秒，默认为0s（可省略）
 

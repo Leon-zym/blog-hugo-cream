@@ -51,7 +51,7 @@ Tips：
 
 ### 变量命名规范
 
-![Untitled](/images/js-learning-1.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/js-learning-1.png)
 
 - 驼峰命名法
 - 尽量不要使用 name 作为变量名，在某些浏览器中有特殊含义
@@ -86,7 +86,7 @@ JavaScript是一种弱类型、动态的语言，不需要提前声明变量的�
 - 如果有引号的嵌套，则可以单双错开使用，如外单内双，或外双内单
 - 转义符：以 \ 开头
   
-    ![Untitled](/images/js-learning-2.png)
+    ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/js-learning-2.png)
     
 
 ---

@@ -13,7 +13,7 @@ jQuery就是一个JavaScript库，为的是快速方便操作DOM，里面基本�
 
 ### 优点：
 
-![Untitled](/images/jquery-5.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/jquery-5.png)
 
 ### 使用步骤
 
@@ -54,19 +54,19 @@ jQuery就是一个JavaScript库，为的是快速方便操作DOM，里面基本�
 
 - jQuery基础选择器：引号里面直接写CSS选择器
   
-    ![Untitled](/images/jquery-1.png)
+    ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/jquery-1.png)
     
 - jQuery层级选择器
   
-    ![Untitled](/images/jquery-2.png)
+    ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/jquery-2.png)
     
 - jQuery筛选选择器
   
-    ![Untitled](/images/jquery-3.png)
+    ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/jquery-3.png)
     
 - jQuery筛选方法（方法，要加小括号）
   
-    ![Untitled](/images/jquery-4.png)
+    ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/jquery-4.png)
     
 - `parents()` 祖先选择器
     - 参数省略，表示选择所有的祖先元素，包括body和html

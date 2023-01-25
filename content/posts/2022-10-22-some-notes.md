@@ -132,11 +132,11 @@ export default {
 
 正序：
 
-![image-20221022170809060](/images/image-20221022170809060.png)
+![image-20221022170809060](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-20221022170809060.png)
 
 倒序：
 
-![image-20221022170854099](/images/image-20221022170854099.png)
+![image-20221022170854099](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-20221022170854099.png)
 
 ---
 

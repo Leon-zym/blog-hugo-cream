@@ -24,7 +24,7 @@ Tips：可以结合 `e.pageX` 和 `e.pageY` 确定鼠标在盒子里的坐标。
 
 ### offset与style的区别
 
-![Untitled](/images/js-bom-3.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/js-bom-3.png)
 
 ## 鼠标事件
 
@@ -56,7 +56,7 @@ Tips：与offset的主要区别就是返回的值不包含border边框。
 - `element.scrollWidth` 属性：返回元素自身的实际width宽度，包含超出盒子宽度的内容content，包含padding，不包含border
 - `element.scrollHeight` 属性：返回元素自身的实际height高度，包含超出盒子高度的内容content，包含padding，不包含border
 
-![Untitled](/images/js-bom-4.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/js-bom-4.png)
 
 ## 页面被卷去的距离
 
@@ -69,13 +69,13 @@ Tips：与offset的主要区别就是返回的值不包含border边框。
 
 - IE9+支持，兼容性问题解决：
 
-![Untitled](/images/js-bom-5.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/js-bom-5.png)
 
 # 三大系列对比：
 
-![Untitled](/images/js-bom-6.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/js-bom-6.png)
 
-![Untitled](/images/js-bom-7.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/js-bom-7.png)
 
 # Flexible.js分析
 
@@ -96,7 +96,7 @@ Tips：与offset的主要区别就是返回的值不包含border边框。
     - 该事件应添加给window对象
 - `pageshow` 与 `load` 的区别：
   
-    ![Untitled](/images/js-bom-8.png)
+    ![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/js-bom-8.png)
     
 
 # mouseenter和mouseover的区别
@@ -118,7 +118,7 @@ Tips：与offset的主要区别就是返回的值不包含border边框。
 
 ### 封装步骤：
 
-![Untitled](/images/js-bom-9.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/js-bom-9.png)
 
 - 元素本身一定要添加定位
 - 函数需要传递两个参数：动画对象、移动距离
@@ -131,7 +131,7 @@ Tips：与offset的主要区别就是返回的值不包含border边框。
 
 - 核心算法：（目标距离 - 当前的位置）/ 10
 
-![Untitled](/images/js-bom-10.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/js-bom-10.png)
 
 ### 动画函数添加回调函数
 

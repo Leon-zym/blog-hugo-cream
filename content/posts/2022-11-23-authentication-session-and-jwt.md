@@ -11,7 +11,7 @@ tags: [Node.js]
 
 ## 在 Express 中使用 Session 认证
 
-![session](/images/2022-11-23-session.png)
+![session](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/2022-11-23-session.png)
 
 npm 安装 `express-session` 包 -> 导入 -> app.use() 注册中间件并配置。
 
@@ -61,7 +61,7 @@ app.get('/api/logout', (req, res) => {
 
 ## 在 Express 中使用 JWT 认证
 
-![session](/images/2022-11-23-token.png)
+![session](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/2022-11-23-token.png)
 
 npm 安装 `jsonwebtoken` 和 `express-jwt` 两个包 -> 导入并使用。
 

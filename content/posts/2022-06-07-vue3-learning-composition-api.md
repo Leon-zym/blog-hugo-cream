@@ -41,7 +41,7 @@ Vue3的template模板可以没有根标签包裹了。实质上Vue3是自动使�
 
 Composition API相对于Options API来说，是将实现特定功能的所有相关代码(响应式数据、方法等)都放到一起。这样不管应用多大，都可以快速定位到某个功能的所有相关代码，维护方便。如果功能复杂，代码量大，我们还可以进行逻辑拆分处理。[官方文档](https://v3.cn.vuejs.org/guide/composition-api-introduction.html#%E4%BB%80%E4%B9%88%E6%98%AF%E7%BB%84%E5%90%88%E5%BC%8F-api)
 
-![image-2022060664818397 PM](/images/image-2022060664818397%20PM.png)
+![image-2022060664818397 PM](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-2022060664818397%20PM.png)
 
 # setup配置项
 
@@ -234,13 +234,13 @@ computed注重的计算出来的值（回调函数的返回值），所以必须
 
 # 生命周期
 
-![实例的生命周期](/images/lifecycle.svg)
+![实例的生命周期](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/lifecycle.svg)
 
 beforeDestroy和destroyed两个钩子变成了beforeUnmount和unmounted
 
 同时Vue3也提供了Composition API形式的生命周期钩子，其对应关系如下：
 
-![image-2022060632919611 PM](/images/image-2022060632919611%20PM.png)
+![image-2022060632919611 PM](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-2022060632919611%20PM.png)
 
 Composition API形式的生命周期钩子需要先引入后使用，写在setup中。而对应在beforeCreate和created中的代码都直接在setup函数中编写。
 

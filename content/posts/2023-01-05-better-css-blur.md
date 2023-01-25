@@ -21,17 +21,17 @@ tags: [CSS]
 
 ## 达到更好的毛玻璃效果
 
-![Screen Shot 2023-01-05 at 8.33.18 PM](/images/Screen%20Shot%202023-01-05%20at%208.33.18%20PM.png)
+![Screen Shot 2023-01-05 at 8.33.18 PM](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/Screen%20Shot%202023-01-05%20at%208.33.18%20PM.png)
 
 今天在逛 Twitter 的时候，偶然注意到 Twitter 的网页版也使用到了毛玻璃效果的顶栏，但它的显示效果就很好，优雅自然不突兀。
 
 为了一探究竟，F12 打开了调试台。定位到相关元素后，发现 CSS 样式中不仅使用到了 `backdrop-filter: blur()`，还用 `background-color: rgba()` 给元素添加了一个半透明背景色：
 
-![Screen Shot 2023-01-14 at 11.28.02 AM](/images/Screen%20Shot%202023-01-14%20at%2011.28.02%20AM.png)
+![Screen Shot 2023-01-14 at 11.28.02 AM](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/Screen%20Shot%202023-01-14%20at%2011.28.02%20AM.png)
 
 在我手动去掉这个背景色属性后，上面所说的不好的现象就回来了。尤其是滚动到文字部分的时候闪烁格外明显：
 
-![Screen Shot 2023-01-05 at 8.34.53 PM](/images/Screen%20Shot%202023-01-05%20at%208.34.53%20PM.png)
+![Screen Shot 2023-01-05 at 8.34.53 PM](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/Screen%20Shot%202023-01-05%20at%208.34.53%20PM.png)
 
 ## 猜测
 

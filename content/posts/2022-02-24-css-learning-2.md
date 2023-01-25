@@ -252,7 +252,7 @@ tags: [CSS]
 
 总结：
 
-![Untitled](/images/css-grammer-2.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/css-grammer-2.png)
 
 - z-index 定位叠放次序
 - 值：auto默认，整数数值（正整数、负整数、0）

@@ -11,7 +11,7 @@ tags: [miniprogram]
 
 # 小程序项目的基本组成结构
 
-![image-20220629172613244](/images/image-20220629172613244.png)
+![image-20220629172613244](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-20220629172613244.png)
 
 - pages：用来存放小程序的所有页面
 - utils：用来存放工具性质的模块
@@ -43,25 +43,25 @@ pages记录了当前小程序所有页面的存放路径。pages数组中的第�
 
 window可以全局设置小程序窗口的外观，即navigationBar和background部分。
 
-![image-20220704134451240](/images/image-20220704134451240.png)
+![image-20220704134451240](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-20220704134451240.png)
 
 window对象中的常用的配置项：
 
-![image-20220704134808115](/images/image-20220704134808115.png)
+![image-20220704134808115](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-20220704134808115.png)
 
 
 
 tabBar可以设置小程序底部的tabBar效果，用以实现多页面的快速切换。tabBar分为底部和顶部两种，当渲染顶部tabBar时不显示icon，只显示文本。且最少2个最多5个页签。
 
-![image-20220704140857735](/images/image-20220704140857735.png)
+![image-20220704140857735](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-20220704140857735.png)
 
 tabBar对象中的常用配置项：
 
-![image-20220704141209277](/images/image-20220704141209277.png)
+![image-20220704141209277](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-20220704141209277.png)
 
 而每个tab页签的配置项，即list数组中每个对象的属性有：
 
-![image-20220704141356363](/images/image-20220704141356363.png)
+![image-20220704141356363](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/image-20220704141356363.png)
 
 > 作为tabBar的页面在pages配置项中需要放在最前面，否则无法渲染出来。
 

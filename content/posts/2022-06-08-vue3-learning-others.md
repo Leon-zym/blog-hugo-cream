@@ -78,7 +78,7 @@ export default {
 
 配合使用可以实现祖代与后代之间的数据通信。祖代组件使用provide()来提供数据，后代组件使用inject()来接收数据。
 
-![img](/images/components_provide.png)
+![img](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/components_provide.png)
 
 在祖代组件中：
 

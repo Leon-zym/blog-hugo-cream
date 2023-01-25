@@ -74,7 +74,7 @@ js是单线程的，就意味着所有任务都需要排队。
 
 ## 事件循环 event loop
 
-![Untitled](/images/js-bom-1.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/js-bom-1.png)
 
 主线程不断地重复获取任务、执行任务、再获取任务、再执行任务，这种机制称为事件循环 event loop
 
@@ -92,7 +92,7 @@ URL的一把语法格式为：
 
 ---
 
-![Untitled](/images/js-bom-2.png)
+![Untitled](https://leon-blog-assets.oss-cn-hangzhou.aliyuncs.com/images/js-bom-2.png)
 
 ## location对象的属性
 
